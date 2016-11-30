@@ -15,7 +15,7 @@
         float:left;
       }
       li a{
-        color:white;N
+        color:white;
 				font-family:Arial;
         font-size:25px;
 				display:block;
@@ -36,8 +36,24 @@
 			li:nth-of-type(2){
 				margin-left:125px
 			}
-			
- 
+       @media (max-width: 600px){
+         li {
+            float:none;
+            text-align:center;
+         }
+         li:first-child{
+           float:none;
+           margin-right:0px;
+           
+         }
+         li:nth-of-type(2){
+				     margin-right:117px;
+			}
+         li a{
+           padding:5px 5px;
+         }
+		 }
+      
     </style>
 	</head>
 	<body>
